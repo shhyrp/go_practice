@@ -1,0 +1,50 @@
+﻿"redis-benchmark -t get,set -r 100000 -d 10 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","80450.52","0.342","0.056","0.271","0.727","1.007","6.335"
+"GET","94607.38","0.276","0.064","0.263","0.359","0.439","6.127"
+"内存占用字节数","key数量","单key占用字节数"
+"6539976","63184","103"
+
+"redis-benchmark -t get,set -r 100000 -d 20 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","79681.27","0.342","0.088","0.271","0.759","1.015","8.343"
+"GET","94876.66","0.273","0.072","0.263","0.359","0.479","0.895"
+"内存占用字节数","key数量","单key占用字节数"
+"7038560","63104","110"
+
+"redis-benchmark -t get,set -r 100000 -d 50 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","98231.83","0.267","0.056","0.263","0.351","0.479","1.359"
+"GET","77519.38","0.344","0.072","0.279","0.767","1.023","4.983"
+"内存占用字节数","key数量","单key占用字节数"
+"9066080","63171","143"
+
+"redis-benchmark -t get,set -r 100000 -d 100 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","99800.40","0.264","0.072","0.255","0.343","0.455","1.487"
+"GET","78308.54","0.339","0.080","0.271","0.743","1.015","6.647"
+"内存占用字节数","key数量","单key占用字节数"
+"12609440","63203","199"
+
+"redis-benchmark -t get,set -r 100000 -d 200 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","100908.17","0.261","0.104","0.255","0.335","0.439","1.615"
+"GET","77760.50","0.352","0.088","0.271","0.775","1.335","5.399"
+"内存占用字节数","key数量","单key占用字节数"
+"19732104","63355","311"
+
+"redis-benchmark -t get,set -r 100000 -d 1024 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","102354.15","0.259","0.088","0.255","0.327","0.415","1.495"
+"GET","78064.01","0.347","0.080","0.271","0.783","1.063","3.695"
+"内存占用字节数","key数量","单key占用字节数"
+"86464448","63228","1367"
+
+"redis-benchmark -t get,set -r 100000 -d 2048 -q",,,,,,,
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","84889.65","0.345","0.088","0.271","0.735","0.911","5.711"
+"GET","89206.06","0.293","0.064","0.287","0.375","0.463","0.967"
+"内存占用字节数","key数量","单key占用字节数"
+"167176024","63144","2647"
+
+
